@@ -1,0 +1,100 @@
+
+body {
+    margin-top:30px;;
+    min-width: 250px;
+    background-image: url('bgimage.jpg')
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+.container {
+    width:50%;
+    
+    margin-top:30px;      /*to keep the container center */
+    margin-left:auto;     /*to keep the container center */
+    margin-right:auto;    /*to keep the container center */       
+    padding: 30px;
+    background-color:#f2f2f2;
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+ .entryDiv {
+    width:100%;
+    margin: 0;
+    padding: 0;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    /* justify-content: space-between; */
+  }
+
+  input[type=label],input[type=text],input[type=button] {
+    margin:20px; 
+    padding:10px;
+ }
+ input[type=label] {
+     margin-left:10
+ }
+ #txtTask {
+     width:60%;
+ }
+ #btnAdd {
+     padding:10px 15px;
+     background-color: dodgerblue;
+     color:white;
+     font-size:15px;
+ }
+
+ .pendingTaskDiv, .completedTaskDiv{
+    
+    width:100%;
+    /* height:30px; */
+    margin-top:15px;   
+    margin: 0;
+    padding: 0;   
+    
+}
+h3 {
+    margin-left:-50px;    
+}
+ul li{
+    cursor: pointer;
+    /* position: relative; */
+    padding: 12px 8px 12px ;
+    margin-top:15px;   
+    list-style-type: none;
+    background:red;
+    font-size: 18px;
+    /* transition: 0.2s;  */
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+    
+} 
+
+input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+}
+
+checkbox:checked  {
+    background: green;
+    color: #fff;
+   
+  }
+
+  fa fa-trash-o {
+      font-size: 30px;
+  }
+
+

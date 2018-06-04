@@ -1,0 +1,33 @@
+
+<html>
+    <head>
+        <title>To do List using JQuery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel ="stylesheet" type ="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="entryDiv">
+                
+                <input type="text" name="task" id ="txtTask" placeholder="Enter the task..then click the button">
+                <input type="button" name ="add" id ="btnAdd" value="Add"> 
+            </div>
+            <h3>Pending Tasks</h3>
+            <div class="pendingTaskDiv">      
+                <ul id="pendingTaskList">
+             
+                </ul> 
+            </div>
+            <h3>Completed Tasks</h3>
+            <div class="completedTaskDiv">   
+                <ul id="completedTaskList">
+
+                </ul>            
+            </div>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/site.js"></script>
+</html>
