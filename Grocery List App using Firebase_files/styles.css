@@ -1,0 +1,8 @@
+
+
+#groceryCategory{
+    width:auto;
+    height:100%;
+    padding:0 10 10 10;
+    overflow: scroll;
+}
